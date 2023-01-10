@@ -1,25 +1,31 @@
 export const MenuItems = [
   {
-    title: "Home",
+    title: "Bosh Sahifa",
     url: "/",
     cName:"nav-links",
     icon:"fa-solid fa-house-user",
   },
   {
-    title: "About",
+    title: "Xizmatlar",
     url: "/about",
     cName:"nav-links",
     icon:"fa-solid fa-circle-info",
   },
   {
-    title: "Service",
+    title: "Portfolio",
     url: "/service",
     cName:"nav-links",
     icon:"fa-solid fa-briefcase",
   },
   {
-    title: "Contact",
+    title: "Vakansiya",
     url: "/contact",
+    cName:"nav-links",
+    icon:"fa-solid fa-address-book",
+  },
+  {
+    title: "Blog",
+    url: "/blog",
     cName:"nav-links",
     icon:"fa-solid fa-address-book",
   },

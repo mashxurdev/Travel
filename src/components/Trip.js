@@ -1,13 +1,13 @@
 import "./TripStyles.css";
 import TripData from "./TripData";
-import Trip1 from "../assets/5.jpg";
-import Trip2 from "../assets/8.jpg";
-import Trip3 from "../assets/6.jpg";
+import Trip1 from "../assets/port1.png";
+import Trip2 from "../assets/port2.png";
+import Trip3 from "../assets/port3.png";
 
 function Trip() {
   return (
     <div className="trip">
-      <h1>Recents Trips</h1>
+      <h1>Recents Project</h1>
       <p>You can discover unique destinations using Google Maps.</p>
       <div className="tripcard">
         <TripData
