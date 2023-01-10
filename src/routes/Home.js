@@ -3,22 +3,37 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
+import Cloud1 from '../assets/Clouds/cloud1.png'
+import Cloud2 from '../assets/Clouds/cloud2.png'
+import Cloud3 from '../assets/Clouds/cloud3.png'
+import Cloud4 from '../assets/Clouds/cloud4.png'
+import Cloud5 from '../assets/Clouds/cloud5.png'
+import nasa from '../assets/nas.jpg'
+import logo from '../assets/logo.png'
 
 function Home() {
   return (
     <>
     <Navbar/>
     <Hero
+    logoimg={logo}
     cName="hero"
-    heroImg="https://images.unsplash.com/photo-1586016413664-864c0dd76f53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-    title="Your Journey Your Story"
-    text="Choose Your Favourite Destination"
-    buttonText="Khoshimov Plan"
+    heroImg={nasa}
+    title="Raqamli yechimlarni taklif qilamiz"
+    img12={Cloud1}
+    img22={Cloud2}
+    img32={Cloud3}
+    img42={Cloud4}
+    img52={Cloud5}
+    text="HAR QANDAY MURAKKABLIKDA"
+    buttonText="Bizning Portfolio"
+    buttonText2="Qo‘ng‘iroq"
     btnClass="show"
-    url="/"
+    url="/service"
     />
     <Destination/>
     <Trip/>
+    <Footer/>
     </>
   );
 }

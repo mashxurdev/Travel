@@ -16,6 +16,8 @@ function Contact() {
         btnClass="hide"
         url="/"
       />
+      <ContactForm/>
+      <Footer/>
     </>
   );
 }
