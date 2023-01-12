@@ -3,6 +3,7 @@ import TripData from "./TripData";
 import Trip1 from "../assets/port1.png";
 import Trip2 from "../assets/port2.png";
 import Trip3 from "../assets/port3.png";
+import Portfolio from "./Portfolio";
 
 function Trip() {
   return (
@@ -28,6 +29,7 @@ function Trip() {
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a "
         />
       </div>
+      <Portfolio/>
     </div>
   );
 }

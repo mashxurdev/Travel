@@ -5,13 +5,17 @@ import Cloud3 from '../assets/Clouds/cloud3.png'
 import Cloud4 from '../assets/Clouds/cloud4.png'
 import Cloud5 from '../assets/Clouds/cloud5.png'
 
+
 function Hero(props) {
+
   return (
     <>
+
       <div className={props.cName}>
         
-        {/* <img alt="HeroImg" className="logoimg" src={props.logoimg} /> */}
+
         <img alt="HeroImg" className="HeroImg" src={props.heroImg} />
+
         <div className="clouds">
         <img alt="i" src={Cloud1} />
         <img alt="i" src={Cloud2} />
@@ -26,6 +30,7 @@ function Hero(props) {
           <a href={props.url} className={props.btnClass}>{props.buttonText}</a>
         </div>
       </div>
+
     </>
   );
 }
