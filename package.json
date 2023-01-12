@@ -9,9 +9,12 @@
   "main": "src/index.js",
   "dependencies": {
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
+    "react-particles-js": "^3.6.0",
     "react-router-dom": "6.4.0",
-    "react-scripts": "4.0.0"
+    "react-scripts": "4.0.0",
+    "react-slick": "^0.29.0"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
